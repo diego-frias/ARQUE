@@ -60,8 +60,8 @@ ARQUE-IQA/
 │   └── arque_core.py
 ├── requirements.txt       # Python dependencies
 └── README.md              # This file
-
-Markdown
+```
+---
 
 ## 🛠️ Installation
 
@@ -69,39 +69,51 @@ Markdown
    ```bash
    git clone https://github.com/YourUsername/ARQUE-IQA.git
    cd ARQUE-IQA
-Install dependencies:
+    ```
+---
+2. **Install dependencies:**
 
-Bash
-
-pip install -r requirements.txt
-Setup Datasets:
+   ```bash
+     pip install -r requirements.txt
+   ```
+---
+3. **Setup Datasets:**
 
 Download LIVE (Release 2) and CSIQ databases from their official websites.
 
 Place them in the data/ folder following the structure described in data/README.txt.
 
-🔄 Reproducibility
+---
+
+## 🔄 Reproducibility
 We provide three main scripts to verify the paper's claims:
 
 Experiment 1: LIVE Benchmark
 Runs the pre-trained hybrid system on the LIVE dataset to generate the performance metrics (Table 1) and visualization plots (Confusion Matrix & Scatter Plot).
 
-Bash
+```bash
 
 python scripts/1_reproduce_live.py
+```
+
 Experiment 2: CSIQ Generalization
 Runs the auto-calibration and training routine on the CSIQ dataset to demonstrate generalization capability (Table 2).
 
-Bash
+    ```bash
 
-python scripts/2_reproduce_csiq.py
+   python scripts/2_reproduce_csiq.py
+   ```
+
 Experiment 3: Complexity Audit
+
 Analyzes the internal structure of the trained SVRs to prove the 72.5% reduction in model complexity (active support vectors) compared to the generalist baseline.
 
-Bash
+```bash
 
 python scripts/3_check_complexity.py
-📜 Citation
+```
+---
+## 📜 Citation
 If you use this code or the ARQUE framework in your research, please cite:
 
 Snippet de código
