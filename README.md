@@ -92,24 +92,21 @@ Experiment 1: LIVE Benchmark
 Runs the pre-trained hybrid system on the LIVE dataset to generate the performance metrics (Table 1) and visualization plots (Confusion Matrix & Scatter Plot).
 
 ```bash
-
 python scripts/1_reproduce_live.py
 ```
 
 Experiment 2: CSIQ Generalization
 Runs the auto-calibration and training routine on the CSIQ dataset to demonstrate generalization capability (Table 2).
 
-    ```bash
-
-   python scripts/2_reproduce_csiq.py
-   ```
+```bash
+python scripts/2_reproduce_csiq.py
+```
 
 Experiment 3: Complexity Audit
 
 Analyzes the internal structure of the trained SVRs to prove the 72.5% reduction in model complexity (active support vectors) compared to the generalist baseline.
 
 ```bash
-
 python scripts/3_check_complexity.py
 ```
 ---
