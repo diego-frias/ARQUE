@@ -61,33 +61,26 @@ ARQUE-IQA/
 ├── requirements.txt       # Python dependencies
 └── README.md              # This file
 
----
+Markdown
+
 ## 🛠️ Installation
-Clone the repository:
 
-Bash
-
-git clone [https://github.com/YourUsername/ARQUE-IQA.git](https://github.com/YourUsername/ARQUE-IQA.git)
-cd ARQUE-IQA
-
----
-## Install dependencies:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/YourUsername/ARQUE-IQA.git
+   cd ARQUE-IQA
+Install dependencies:
 
 Bash
 
 pip install -r requirements.txt
-
----
-
-## Setup Datasets:
+Setup Datasets:
 
 Download LIVE (Release 2) and CSIQ databases from their official websites.
 
 Place them in the data/ folder following the structure described in data/README.txt.
 
----
-
-## Reproducibility
+🔄 Reproducibility
 We provide three main scripts to verify the paper's claims:
 
 Experiment 1: LIVE Benchmark
@@ -111,7 +104,7 @@ python scripts/3_check_complexity.py
 📜 Citation
 If you use this code or the ARQUE framework in your research, please cite:
 
-
+Snippet de código
 
 @article{Frias2025ARQUE,
   title={ARQUE: A Hybrid Multi-Expert Framework for No-Reference Image Quality Assessment Using Curvature Analysis},
@@ -119,7 +112,5 @@ If you use this code or the ARQUE framework in your research, please cite:
   journal={Submitted to Journal Name},
   year={2025}
 }
----
-
-## 📄 License
+📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
