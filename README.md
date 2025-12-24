@@ -118,7 +118,7 @@ If you use this code or the ARQUE framework in your research, please cite:
 @article{Frias2025ARQUE,
   title={ARQUE: A Hybrid Multi-Expert Framework for No-Reference Image Quality Assessment Using Curvature Analysis},
   author={Frias, Diego and Coelho, Leandro and Fonseca, Vagner},
-  journal={Submitted to Journal Name},
+  journal={Submitted to ELCVIA},
   year={2025}
 }
 ```
