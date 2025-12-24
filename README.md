@@ -113,7 +113,7 @@ python scripts/3_check_complexity.py
 ## 📜 Citation
 If you use this code or the ARQUE framework in your research, please cite:
 
-Snippet de código
+```
 
 @article{Frias2025ARQUE,
   title={ARQUE: A Hybrid Multi-Expert Framework for No-Reference Image Quality Assessment Using Curvature Analysis},
@@ -121,5 +121,8 @@ Snippet de código
   journal={Submitted to Journal Name},
   year={2025}
 }
+```
+
+---
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
