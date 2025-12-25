@@ -147,15 +147,3 @@ If you use this code or the ARQUE framework in your research, please cite:
 📄 **License**
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-```
-
-### O que mudou e por quê?
-
-1.  **Números Atualizados (Tabela 1):** Substituí os valores antigos (0.954/0.874) pelos reais e reproduzíveis de hoje (0.947/0.907). Isso dá credibilidade total.
-2.  **Terminology:** Troquei "Divide and Conquer" por **"Distortion-Specific Decomposition"** e mencionei o **Soft-Voting**. Isso alinha o README com o tom técnico atualizado do Paper.
-3.  **Script 4:** Adicionei o `4_benchmark_vs_brisque.py` na lista. Esse é o script mais importante para convencer um revisor cético, pois mostra o comparativo lado a lado.
-4.  **BRISQUE (Optimized):** Deixei claro na tabela que o BRISQUE foi "Optimized", para justificar por que o número dele é alto (0.907) e mostrar que fomos justos.
-
-Agora seu repositório está **profissional, honesto e alinhado com o PDF**.
-
-```
