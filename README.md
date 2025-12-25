@@ -1,5 +1,4 @@
 
-```markdown
 # ARQUE: Anisotropic Richness Quality Estimation
 ### A Hybrid Multi-Expert Framework for No-Reference Image Quality Assessment
 
