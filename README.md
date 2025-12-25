@@ -8,7 +8,7 @@
 ![Status](https://img.shields.io/badge/Status-Paper_Submitted-orange)
 
 **ARQUE** is a novel No-Reference Image Quality Assessment (NR-IQA) framework that adopts a **"Distortion-Specific Decomposition"** strategy. Instead of using a single generalist model, ARQUE employs a probabilistic classifier to route images to specialized Support Vector Regressors (SVRs), using a **Soft-Voting** mechanism to fuse expert predictions.
-
+```
 This repository contains the official implementation and reproduction scripts for the paper:  
 > **"ARQUE: A Hybrid Multi-Expert Framework for No-Reference Image Quality Assessment Using Curvature Analysis"**
 ```
