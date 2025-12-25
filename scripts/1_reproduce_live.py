@@ -86,7 +86,7 @@ if __name__ == "__main__":
     print(f"ARQUE PERFORMANCE ON LIVE")
     print("="*50)
     print(f"Classification Accuracy: {acc*100:.2f}%")
-    print(f"PLCC (Linearity):      {plcc:.4f} (Paper: 0.954)")
+    print(f"PLCC (Linearity):      {plcc:.4f} (Paper: 0.947)")
     print(f"SROCC (Monotonicity):  {srocc:.4f}")
     print(f"RMSE (Error):          {rmse:.4f}")
     
@@ -111,4 +111,5 @@ if __name__ == "__main__":
     plt.tight_layout()
     plt.savefig("arque_results.png")
     print("\nPlot saved to 'arque_results.png'")
+
     plt.show()
