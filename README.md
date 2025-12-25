@@ -11,7 +11,7 @@
 
 This repository contains the official implementation and reproduction scripts for the paper:  
 > **"ARQUE: A Hybrid Multi-Expert Framework for No-Reference Image Quality Assessment Using Curvature Analysis"**
-
+```
 ---
 
 ## 🚀 Key Features
